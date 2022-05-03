@@ -7,7 +7,6 @@
 	[
 		"ApacheConf",
 		"Colorsublime",
-		"Debugger",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"ESLint",
@@ -23,6 +22,7 @@
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Terminal",
+		"Twig",
 		"Xdebug Client",
 	],
 	"install_prereleases": [

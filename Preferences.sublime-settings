@@ -9,7 +9,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Debugger",
 		"Vintage",
 	],
 	"indent_guide_options":
