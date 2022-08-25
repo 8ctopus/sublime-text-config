@@ -2,10 +2,12 @@
     // save all
     { "keys": ["ctrl+shift+s"], "command": "save_all", "args": { "async": true } },
 
-    // find use
-    {"keys": ["f1"], "command": "find_use"},
+    { "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
 
-    {"keys": ["ctrl+f1"], "command": "goto_definition"},
+    // find use
+    //{"keys": ["f1"], "command": "find_use"},
+
+    {"keys": ["f1"], "command": "lsp_symbol_definition"},
 
     // xdebug
     {"keys": ["f2"], "command": "xdebug_breakpoint"},
@@ -38,6 +40,4 @@
     {"keys": ["f8"], "command": "debugger", "args": { "action": "on_step_out" }},
     {"keys": ["f9"], "command": "debugger", "args": { "action": "on_resume" }},
 */
-
-    { "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
 ]
