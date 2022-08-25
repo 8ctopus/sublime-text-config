@@ -1,0 +1,10 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+    "clients": {
+        "phpactor": {
+            "enabled": false,
+            "command": ["C:/Users/Kokosik/AppData/Roaming/Composer/vendor/bin/phpactor.bat", "language-server"],
+            "selector": "source.php"
+        }
+    }
+}
