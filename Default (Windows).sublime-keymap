@@ -23,6 +23,8 @@
     {"keys": ["f9"], "command": "xdebug_continue", "args": {"command": "run"}},
     {"keys": ["fr"], "command": "xdebug_run_to_line"},
 
+    {"keys": ["ctrl+m"], "command": "lsp_show_diagnostics_panel"},
+
 //    {"keys": ["ctrl+shift+f11"], "command": "xdebug_layout", "args": {"keymap" : true}}
 
     // watches
