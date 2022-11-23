@@ -1,6 +1,10 @@
 {
 	"extensions":
 	[
-		".htaccess-EN"
-	]
+		".htaccess-EN",
+		".htaccess-DE",
+		".htaccess-FR",
+		".htaccess-ES",
+		".htaccess-JA",
+	],
 }
