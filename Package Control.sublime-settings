@@ -1,4 +1,6 @@
 {
+	// If packages should be automatically upgraded when ST starts
+	"auto_upgrade": false,
 	"bootstrapped": true,
 	"in_process_packages":
 	[
