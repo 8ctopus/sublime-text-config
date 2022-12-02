@@ -26,7 +26,6 @@
 		"SublimeLinter-php",
 		"Terminal",
 		"Twig",
-		"Xdebug Client",
 	],
 	"install_prereleases": [
 		"Sass"
