@@ -1,0 +1,15 @@
+{
+	"extensions":
+	[
+		"local",
+		".env",
+		".env-docker",
+		".env-EN",
+		".env-ES",
+		".env-FR",
+		".env-JA",
+		".env-DE",
+		"testing",
+		"server",
+	],
+}
