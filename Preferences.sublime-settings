@@ -54,6 +54,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"theme": "Material-Theme.sublime-theme",
+	"themed_title_bar": false,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"auto_complete": true,
