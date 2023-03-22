@@ -12,6 +12,25 @@
     },
     "settings": {
         // https://github.com/bmewburn/vscode-intelephense/blob/master/package.json
+        "intelephense.compatibility.correctForBaseClassStaticUnionTypes": true,
+        "intelephense.compatibility.correctForArrayAccessArrayAndTraversableArrayUnionTypes": true,
+        "intelephense.files.maxSize": 1000000,
+        "intelephense.files.associations": [
+            "*.php",
+            "*.phtml"
+        ],
+        "intelephense.files.exclude": [
+            "**/.git/**",
+            "**/.svn/**",
+            "**/.hg/**",
+            "**/CVS/**",
+            "**/.DS_Store/**",
+            "**/node_modules/**",
+            "**/bower_components/**",
+            "**/vendor/**/{Tests,tests}/**",
+            "**/.history/**",
+            "**/vendor/**/vendor/**"
+        ],
         "intelephense.stubs": [
             "wordpress",
 
@@ -87,5 +106,56 @@
             "zip",
             "zlib",
         ],
+        "intelephense.completion.insertUseDeclaration": true,
+        "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
+        "intelephense.completion.triggerParameterHints": true,
+        "intelephense.completion.maxItems": 100,
+        "intelephense.format.enable": true,
+        "intelephense.format.braces": "psr12",
+        //"intelephense.environment.documentRoot": "",
+        //"intelephense.environment.includePaths": "",
+        "intelephense.environment.phpVersion": "",
+        "intelephense.environment.shortOpenTag": true,
+        "intelephense.diagnostics.enable": true,
+        "intelephense.diagnostics.run": "onType",
+        "intelephense.diagnostics.embeddedLanguages": true,
+        "intelephense.diagnostics.undefinedSymbols": true,
+        "intelephense.diagnostics.undefinedVariables": true,
+        "intelephense.diagnostics.undefinedTypes": true,
+        "intelephense.diagnostics.undefinedFunctions": true,
+        "intelephense.diagnostics.undefinedConstants": true,
+        "intelephense.diagnostics.undefinedClassConstants": true,
+        "intelephense.diagnostics.undefinedMethods": true,
+        "intelephense.diagnostics.undefinedProperties": true,
+        "intelephense.diagnostics.unusedSymbols": true,
+        "intelephense.diagnostics.unexpectedTokens": true,
+        "intelephense.diagnostics.duplicateSymbols": true,
+        "intelephense.diagnostics.argumentCount": true,
+        "intelephense.diagnostics.typeErrors": true,
+        "intelephense.diagnostics.deprecated": true,
+        "intelephense.diagnostics.languageConstraints": true,
+        "intelephense.diagnostics.implementationErrors": true,
+        //"intelephense.runtime": "",
+        //"intelephense.maxMemory": 100,
+        "intelephense.licenceKey": {
+            "type": "string",
+            "description": "DEPRECATED. Don't use this. Go to command palette and search for enter licence key.",
+            "scope": "application"
+        },
+        "intelephense.telemetry.enabled": true,
+        "intelephense.rename.exclude": [
+            "**/vendor/**"
+        ],
+        "intelephense.rename.namespaceMode": "all",
+        "intelephense.references.exclude": [
+            "**/vendor/**"
+        ],
+        "intelephense.phpdoc.returnVoid": true,
+        "intelephense.phpdoc.textFormat": "snippet",
+        //"intelephense.phpdoc.classTemplate":
+        //"intelephense.phpdoc.propertyTemplate":
+        //"intelephense.phpdoc.functionTemplate":
+        "intelephense.phpdoc.useFullyQualifiedNames": false,
+        "intelephense.trace.server": "off"
     },
 }
