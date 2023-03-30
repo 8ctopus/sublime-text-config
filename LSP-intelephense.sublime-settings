@@ -7,7 +7,7 @@
 
         // if you want to use a premium license, you can either paste the key directly
         // or paste it into a file and provide its absolute path here
-        "licenceKey": "00JXQEV2TUQV45Q",
+        "licenceKey": "${home}/AppData/Roaming/Sublime Text/intelephense-license.txt",
     },
     "settings": {
         // https://github.com/bmewburn/vscode-intelephense/blob/master/package.json
@@ -58,7 +58,7 @@
             //"gmp",
             //"hash",
             //"iconv",
-            //"imap",
+            "imap",
             //"intl",
             "json",
             //"ldap",
@@ -71,7 +71,7 @@
             //"openssl",
             //"pcntl",
             "pcre",
-            //"PDO",
+            "PDO",
             //"pdo_ibm",
             //"pdo_mysql",
             //"pdo_pgsql",
@@ -81,7 +81,7 @@
             //"posix",
             //"pspell",
             //"readline",
-            //"Reflection",
+            "Reflection",
             //"session",
             //"shmop",
             //"SimpleXML",
