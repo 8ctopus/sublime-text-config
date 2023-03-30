@@ -2,7 +2,7 @@
 
 This is my Sublime Text 4 configuration for php development.
 
-![sciter sandbox gif](https://github.com/8ctopus/sublime-text-config/screenshot.png)
+![sublime text screenshot](https://github.com/8ctopus/sublime-text-config/raw/master/screenshot.png)
 
 ## intelephense
 
