@@ -9,7 +9,8 @@
 
     // lsp
     {"keys": ["f1"], "command": "lsp_symbol_definition"},
-    {"keys": ["f2"], "command": "lsp_symbol_rename"},
+    {"keys": ["f2"], "command": "lsp_symbol_references"},
+    {"keys": ["f4"], "command": "lsp_symbol_rename"},
 
     {"keys": ["ctrl+m"], "command": "lsp_show_diagnostics_panel"},
 
