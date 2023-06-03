@@ -63,7 +63,7 @@
             "json",
             //"ldap",
             //"libxml",
-            //"mbstring",
+            "mbstring",
             //"meta",
             "mysqli",
             //"oci8",
