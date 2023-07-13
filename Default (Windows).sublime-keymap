@@ -15,7 +15,7 @@
     {"keys": ["ctrl+m"], "command": "lsp_show_diagnostics_panel"},
 
     // delete line
-    { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
     // xdebug
 //    {"keys": ["f2"], "command": "xdebug_breakpoint"},
