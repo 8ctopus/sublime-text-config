@@ -1,4 +1,10 @@
 [
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "copilot_ask_completions",
+        //"context": [{ "key": "copilot.is_authorized" }],
+    },
+
     // save all
     { "keys": ["ctrl+shift+s"], "command": "save_all", "args": { "async": true } },
 
