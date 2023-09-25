@@ -80,7 +80,7 @@
             "Phar",
             //"posix",
             //"pspell",
-            "random",
+            //"random",
             "readline",
             "Reflection",
             "session",
@@ -117,7 +117,7 @@
         "intelephense.format.braces": "psr12",
         //"intelephense.environment.documentRoot": "",
         //"intelephense.environment.includePaths": "",
-        "intelephense.environment.phpVersion": "",
+        "intelephense.environment.phpVersion": "8.2.0",
         "intelephense.environment.shortOpenTag": true,
         "intelephense.diagnostics.enable": true,
         "intelephense.diagnostics.run": "onType",
@@ -140,11 +140,7 @@
         "intelephense.diagnostics.implementationErrors": true,
         //"intelephense.runtime": "",
         //"intelephense.maxMemory": 100,
-        "intelephense.licenceKey": {
-            "type": "string",
-            "description": "DEPRECATED. Don't use this. Go to command palette and search for enter licence key.",
-            "scope": "application"
-        },
+        "intelephense.licenceKey": "DEPRECATED. Don't use this.",
         "intelephense.telemetry.enabled": true,
         "intelephense.rename.exclude": [
             "**/vendor/**"
@@ -159,6 +155,6 @@
         //"intelephense.phpdoc.propertyTemplate":
         //"intelephense.phpdoc.functionTemplate":
         "intelephense.phpdoc.useFullyQualifiedNames": false,
-        "intelephense.trace.server": "off"
+        //"intelephense.trace.server": "off"
     },
 }
