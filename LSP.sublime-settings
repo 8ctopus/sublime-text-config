@@ -2,9 +2,20 @@
 {
     "clients": {
         "phpactor": {
-            "enabled": false,
-            "command": ["C:/Users/Kokosik/AppData/Roaming/Composer/vendor/bin/phpactor.bat", "language-server"],
-            "selector": "source.php"
+            "command": [
+                "php",
+                "K:/dev/github/phpactor/bin/phpactor",
+                "language-server"
+            ],
+            "enabled": true,
+            "languageId": "php",
+            "scopes": [
+                "source.php",
+                "embedding.php"
+            ],
+            "syntaxes": [
+                "Packages/PHP/PHP.sublime-syntax"
+            ]
         }
     }
 }
