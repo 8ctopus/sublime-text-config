@@ -80,7 +80,7 @@
             "Phar",
             //"posix",
             //"pspell",
-            //"random",
+            "random",
             "readline",
             "Reflection",
             "session",
