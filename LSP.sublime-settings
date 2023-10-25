@@ -3,11 +3,14 @@
     "clients": {
         "phpactor": {
             "command": [
-                "php",
-                "K:/dev/github/phpactor/bin/phpactor",
+                //"php",
+                //"K:/dev/github/phpactor/bin/phpactor",
+                "docker",
+                "exec",
+                "sandbox",
                 "language-server"
             ],
-            "enabled": true,
+            "enabled": false,
             "languageId": "php",
             "scopes": [
                 "source.php",
