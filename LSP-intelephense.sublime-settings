@@ -128,6 +128,7 @@
         "intelephense.diagnostics.undefinedFunctions": true,
         "intelephense.diagnostics.undefinedConstants": true,
         "intelephense.diagnostics.undefinedClassConstants": true,
+        // FIX ME switched to false waiting for a solution
         "intelephense.diagnostics.undefinedMethods": true,
         "intelephense.diagnostics.undefinedProperties": true,
         "intelephense.diagnostics.unusedSymbols": true,
