@@ -21,6 +21,7 @@
 		"LSP-html",
 		"LSP-intelephense",
 		"LSP-json",
+		"LSP-typescript",
 		"LSP-yaml",
 		"Markdown Extended",
 		"MarkdownPreview",
