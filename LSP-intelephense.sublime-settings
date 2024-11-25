@@ -57,7 +57,7 @@
             //"gettext",
             //"gmp",
             "hash",
-            //"iconv",
+            "iconv",
             "imap",
             "intl",
             "json",
