@@ -2,7 +2,7 @@
     {
         "keys": ["ctrl+shift+c"],
         "command": "copilot_ask_completions",
-        //"context": [{ "key": "copilot.is_authorized" }],
+        "context": [{ "key": "copilot.is_authorized" }],
     },
 
     // save all
