@@ -1,6 +1,6 @@
 {
   "settings": {
-    "auto_ask_completions": true,
+    "auto_ask_completions": false,
     "debug": true,
   }
 }
